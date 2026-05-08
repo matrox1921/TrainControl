@@ -18,5 +18,6 @@ namespace TrainApp_example2
         public double Y { get; set; }
         public double Speed { get; set; }
         public Rectangle Shape { get; set; }
+        public bool IsMoving { get; set; }
     }
 }
