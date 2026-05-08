@@ -33,6 +33,7 @@ namespace TrainApp_example2
             CreateTrain(0, 50, 3);
             CreateTrain(100, 100, 7);
             CreateTrain(200, 150, 10);
+            CreateTrain(300, 250, 15);
 
             // 0.1초마다 실행
             timer.Interval = TimeSpan.FromMilliseconds(100);
